@@ -26,7 +26,15 @@ public class DataTypes {
 		System.out.println("Short value of i is : " + i);
 		System.out.println("Byte value of h is : " + h);
 
-
+		// Non-primitive data types
+		
+		String sText = "hello world";
+		System.out.println(sText);
+		
+		int Marks[] = {30,89,50,40,75};
+		System.out.println(Marks[0]);
+		System.out.println(Marks[1]);
+		System.out.println(Marks[2]);
 
 	}
 
