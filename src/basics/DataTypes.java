@@ -35,6 +35,24 @@ public class DataTypes {
 		System.out.println(Marks[0]);
 		System.out.println(Marks[1]);
 		System.out.println(Marks[2]);
+		
+		
+		//Data conversions
+		
+		// Narrowing conversion
+		// Convert data to another type that has the fewer bits of storage and/or can lose information. E.g.,
+		// E.g. double or float to any integer type double to float
+		
+		short a1 = 130;
+		byte b1 = (byte) a1;
+		System.out.println("Casted value from short to byte is : " + b1);
+						
+		// Widening conversion -Convert data to another type that has the same or more bits of storage. E.g.,
+		//• short to int, long (safe), • int to long (safe), • int to float, double (magnitude the same but can lose precision)
+		
+		byte b2 = 120;
+		short s2 = b2;
+		System.out.println("Store value from byte to short is : " + s2);
 
 	}
 
