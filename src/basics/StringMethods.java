@@ -19,6 +19,7 @@ public class StringMethods {
 		System.out.println(sText4.substring(0, 5)); // returns the substring in between the beginning and ending index
 		System.out.println(sText1.concat(sText2)); // combine or concatenate two strings
 		System.out.println(sText1.concat(" ").concat(sText2)); // combine or concatenate two strings with space in between
+		System.out.println(sText1+ " " + sText2); // combine or concatenate two strings with space in between
 		System.out.println(sText3.isEmpty()); // returns true is the string is empty else false
 		System.out.println(sText4.replaceAll("java", "core java")); // replaces a sub string with another sub string
 		System.out.println(sText3.endsWith("java")); // returns true else false
